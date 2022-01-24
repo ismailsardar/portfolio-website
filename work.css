@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+    
+    
+font-family: 'Roboto Slab', serif;
+    
+}
+body{
+    margin: 0;
+    background-image: url(media1/aboim1.jpg);   
+     
+    /* background-color: #0D2027;  */
+}
+
+.des-hr{
+    border: 9px dotted white;
+    margin-top: 0;
+    border-bottom: none;
+    width: 260px;
+    justify-content: left;
+}
+.des-hr1{
+    border: 3px solid white;
+    margin-top: 0;
+    border-bottom: none;
+    /* width: 360px;
+    justify-content: left; */
+}
+
+/* Nab bar start heare */
+#navbar{
+    background-image: url(media1/block.jpg);
+    
+    text-align: center;
+    margin-top: 0;
+}
+#navbar::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+#navbar .nav-head h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8rem;
+    text-align: center;
+    color: rgb(228, 214, 214);
+    margin: 0;
+    /* padding-top: 10px; */
+    padding-left: 80px;
+}
+
+/* Manu bar a link */
+.nav-menu a{
+    font-family: 'Fira Sans','Montserrat','Satisfy';
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    background-color: rgba(187, 185, 185, 0.192);
+    border-radius: 5px;
+    margin: 7px 0;
+    padding: 10px;
+}
+.nav-menu a:hover{
+    background-color: rgba(128, 128, 128, 0.575);
+}
+.nav-menu{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+/* For Mobail width */
+[class*="col-"]{
+    width: 100%;
+}
+/* nav bar End heare */
+
+/* my project design start here */
+
+/* My calculator project */
+
+.cal-tt1{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    
+}
+.card{
+    margin: 0 auto;
+    max-width: 255px;
+    text-align: center;
+    margin-top: 15px;
+    box-shadow: 0 4px 8px 0 rgb(36, 34, 34);
+    transition: 0.3s;
+    font-size: 0px;
+    border: 3px solid rgb(15, 14, 14);
+    background-color: rgb(4, 2, 7);
+    border-radius: 5px;
+}
+.card:hover{
+    box-shadow: 0 16px 32px 0 rgba(235, 226, 226, 0.836);
+}
+.cal-head #result{
+    width: 250px;
+    height: 75px;
+    font-size: 32px;
+    text-align: right;
+    padding: 0 5px;
+    letter-spacing: 1px;
+    border: 7px solid black;
+}
+.butt{
+    width: 62px;
+    height: 65px;
+    font-size: 15px;
+    background-color: #1f2326;
+    color: white;
+    margin-left: 0%;
+}
+.butto-st{
+    background-color: rgb(132, 196, 6);
+}
+.butt:hover{
+    opacity: .8;
+}
+
+/* my project design start here */
+
+/* footer desine start here  */
+#footer1{
+    position: relative;
+}
+#footer1 footer{
+   background-color: #070808;
+
+   display: flex;
+   flex-direction: column;
+}
+footer{
+    color: white;
+    padding: 10px;
+}
+.adderss2 a{
+    text-decoration: none;
+    justify-content: right;
+    color: rgb(145, 74, 74);
+}
+.adderss2 a:hover{
+    color: seagreen;
+}
+#footer1::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+/* footer desine End here  */

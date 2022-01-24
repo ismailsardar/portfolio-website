@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    
+    
+font-family: 'Roboto Slab', serif;
+    
+}
+body{
+    margin: 0;
+    background-color: #045d75;
+}
+
+/* Nab bar start heare */
+#navbar{
+    background-image: url(media1/block.jpg);
+   
+    text-align: center;
+    margin: 0;
+}
+#navbar::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+#navbar .nav-head h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8rem;
+    text-align: center;
+    color: rgb(228, 214, 214);
+    margin: 0;
+    /* padding-top: 10px; */
+    padding-left: 80px;
+}
+
+/* Manu bar a link */
+.nav-menu a{
+    font-family: 'Fira Sans','Montserrat','Satisfy';
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    background-color: rgba(187, 185, 185, 0.192);
+    border-radius: 5px;
+    margin: 7px 0;
+    padding: 10px;
+}
+.nav-menu a:hover{
+    background-color: rgba(128, 128, 128, 0.575);
+}
+.nav-menu{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+/* For Mobail width */
+[class*="col-"]{
+    width: 100%;
+}
+/* nav bar End heare */
+
+/* About -me start here */
+.about-me::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+h2{
+    font-size: 2.7rem;
+    text-align: center;
+}
+.doted-hr{
+    border: dotted 7px white;
+    border-bottom: none;
+    margin: 5px auto;
+    margin-top: 0;
+    width: 300px;
+}
+.about-me{
+    /* background-color: #39a4ac; */
+    /* background-image: url(media1/aboim1.jpg); */
+    padding: 1% 5%;
+    color: white;
+    text-align: center;
+    font-family: 'Hina Mincho', serif;
+}
+.about-img img{
+    border: 5px solid white;
+    border-radius: 50%;
+    height: 220px;
+    width: 200px;
+}
+.about-me p{
+    text-align: center;
+    font-size: 1.4rem;
+}
+.about-me a{
+    color: white;
+    font-size: 1.3rem;
+    text-decoration: none;
+    
+    border-radius: 5px;
+    margin: 7px 0;
+    padding: 10px;
+}
+.cv-button{
+    background-color: #04ebf769;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px;
+    width: 150px;
+}
+.cv-button:hover{
+    background-color: #04ebf7ea;
+}
+/* About -me end here  */
+
+/* footer desine start here  */
+#footer1 footer{
+    background-color: #070808;
+ 
+    display: flex;
+    flex-direction: column;
+ }
+ footer{
+     color: white;
+     padding: 10px;
+ }
+ .adderss2 a{
+     text-decoration: none;
+     justify-content: right;
+     color: rgb(145, 74, 74);
+ }
+ #footer1::after{
+     display: table;
+     content: '';
+     clear: both;
+ }
+ .adderss2 a:hover{
+    color: seagreen;
+}
+ /* footer desine End here  */

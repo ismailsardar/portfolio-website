@@ -1,0 +1,99 @@
+/* Nav bar start heare */
+
+/* for Dextop coluamn width */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.nav-logo{
+    text-align: left;
+    padding-left: 8%;
+}
+.nav-head {
+    text-align: right;
+    margin-top: 10px;
+    
+}
+
+.nav-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+.nav-menu a{
+    padding: 10px;
+    margin: 2px;
+    background-color: transparent;
+    background-color: #05828b3a;
+}
+/* Nav bar End hear */
+/* profile desine start here */
+.profile{
+    padding: 100px 0px;
+    text-align: center;
+    position: relative;
+    margin: 0;
+    
+    box-sizing: border-box;
+}
+
+/* .profile-docu{
+    bottom: 60px;
+} */
+.profile .profile-docu h1{
+    font-size: 2.7rem;
+    margin: 0;
+}
+
+.profile-docu p{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    text-align: justify;
+    width: 90%;
+}
+.profile .img-p2{
+    position: absolute;
+    left: 15px;
+    bottom: 0px;
+    
+}
+.profile .img-p1{
+    position: absolute;
+    right: 90px;
+   
+}
+/* profile desine End here */
+
+/* footer desine start here */
+#footer1 footer{
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+ }
+
+ #footer1 footer .adderss2{
+  justify-content: right;
+  
+ }
+ #footer1 footer{
+     height: 145px;
+ }
+/* footer desine End here */
+
+/* About -me start here */
+#vedio-back12{
+    height: 100%;
+    width: 1000px;
+}
+/* About -me end here  */
